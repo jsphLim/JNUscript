@@ -76,7 +76,7 @@ if __name__ == '__main__':
     print("变更管理:"+nums[3])
     print("知识审核:"+nums[4])
     print("计划任务:"+nums[5])
-
+    print('未完成工单:')
     res = detail(str1)
     res = json.loads(res)
     list = []
